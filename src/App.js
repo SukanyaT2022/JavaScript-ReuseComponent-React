@@ -1,20 +1,29 @@
 // type rafce
 
-import Blog from "./component/Blog"
-import Footer from "./component/Footer"
-import Header from "./component/Header"
-
+import React from 'react'
+import Header from './component/Header'
+import Footer from './component/Footer'
+import Blog from './component/Blog'
 
 const App = () => {
-  const title = 'I love USA'
-  return (
-    <>
-    <div>App</div>
-    <Header mytitle={title}/>
-    <Blog/>
-    <Footer/>
+  //style component
+const styleConst2 = {
+  main:{
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    flexDirection:"column",
+    width: "50%"
+  }
+}
 
-</>
+  return (
+    <div style={styleConst2.main}>
+    <div>App</div>
+    <Header/>
+    <Footer/>
+    <Blog/>
+    </div>
   )
 }
 

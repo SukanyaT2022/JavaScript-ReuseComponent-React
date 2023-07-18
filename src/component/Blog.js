@@ -1,12 +1,14 @@
 import React from 'react'
 import Header from './Header'
+import Footer from './Footer'
 
 const Blog = () => {
+    const myheading = "Hello Summer!"
   return (
     <>
-        <Header/>
+    <Header react pass the proc={myheading}/>
     <div>Blog</div>
-
+    <Footer/>
     </>
   )
 }
