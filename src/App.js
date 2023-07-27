@@ -4,6 +4,7 @@ import React from 'react'
 import Header from './component/Header'
 import Footer from './component/Footer'
 import Blog from './component/Blog'
+import Newfeed from './component/News/Newfeed'
 
 const App = () => {
   //style component
@@ -23,6 +24,8 @@ const styleConst2 = {
     <Header/>
     <Footer/>
     <Blog/>
+    <Newfeed/>
+    
     </div>
   )
 }

@@ -6,7 +6,7 @@ const Blog = () => {
     const myheading = "Hello Summer!"
   return (
     <>
-    <Header react pass the proc={myheading}/>
+    <Header keymyheading={myheading}/>
     <div>Blog</div>
     <Footer/>
     </>
